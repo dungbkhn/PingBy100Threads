@@ -38,7 +38,7 @@ public class MT extends Thread {
       InetAddress geek = Inet6Address.getByName(ipAddress);
       //System.out.println("Sending Ping Request to " + ipAddress);
       if (geek.isReachable(600))
-        System.out.println(ipAddress + " - Host is reachable");
+        System.out.println(ipAddress + " - OK OK Host is reachable");
       //else
       //  System.out.println("Sorry ! We can't reach to this host");
     }
