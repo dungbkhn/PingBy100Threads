@@ -17,9 +17,7 @@ public class TryThreadPing {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws InterruptedException {
-        
         // TODO code application logic here
-        
         int n=1;
         int m=1048576;
         
